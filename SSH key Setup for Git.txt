@@ -1,0 +1,13 @@
+              SSH key Setup
+
+Generating a new SSH key and adding it to the ssh-agent
+
+1. Step 1 :
+ 
+ssh-keygen -t rsa -b 4096 -C shivasharanpalakurthi490@gmail.com
+
+
+Then u will press enter and at default location shown there: /c/Users/kittu/.ssh/id_rsa
+
+
+Then again press enter for typing a secure pas phrase. I am currently leaving It empty as for every operation will ask the phrase that u enter here.
