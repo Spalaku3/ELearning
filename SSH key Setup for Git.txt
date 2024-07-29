@@ -11,3 +11,12 @@ Then u will press enter and at default location shown there: /c/Users/kittu/.ssh
 
 
 Then again press enter for typing a secure pas phrase. I am currently leaving It empty as for every operation will ask the phrase that u enter here.
+
+2. Step 2 to add this ssh key to ssh agent
+
+start the ssh-agent in the background
+$eval$(ssh-agent -s)
+
+Now add it to the agent
+
+ssh-add~/.ssh/id_rsa
