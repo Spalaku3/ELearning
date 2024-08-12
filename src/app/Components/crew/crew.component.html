@@ -1,0 +1,10 @@
+<p>crew works!</p>
+
+<app-crew-designations [message]="messageForComponent" [dataFromParent]="parentData" (dataFromChild)="receivedDataFromChild($event)" (messageEvent)="recevingMessage($event)"></app-crew-designations>
+
+<p>Inside Crew Component</p>
+
+<p>{{receivedMessage}}</p>
+
+<h1>{{childData | json}}</h1>
+

@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import {MatButtonModule} from '@angular/material/button';
-import { CrewMembersComponent } from "./crew-members/crew-members.component";
+import { CrewComponent } from './Components/crew/crew.component';
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MatButtonModule, CrewMembersComponent],
+  imports: [RouterOutlet, MatButtonModule, CrewComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
